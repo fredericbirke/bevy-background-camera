@@ -29,9 +29,7 @@ use bevy::{
 use super::background_camera::BackgroundProcessedRenderTarget;
 
 // Original shader
-// const COMPOSITE_SHADER_PATH: &str = "shaders/composite.wgsl";
-// Debug version with split screen visualization
-const COMPOSITE_SHADER_PATH: &str = "shaders/composite_debug.wgsl";
+const COMPOSITE_SHADER_PATH: &str = "shaders/composite.wgsl";
 
 pub struct CompositePlugin;
 
